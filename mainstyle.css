@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("./src/hatter.png");
+    margin: 0 auto;
+}
+
+section>div{
+    display: flex;
+    flex: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+section{
+    width: 75%;
+    background-color: black;
+    padding: 5em;
+    margin: 5% auto 0;
+    border: 2px solid yellow;
+    border-radius: 5em;
+}
+
+.text-div{
+    padding: 2em;
+    border: 1.5pt dashed yellow;
+    width: 25%;
+    height: 10%;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.top>.text-div{
+    border: 0;
+}
+
+.top{
+    border-top: 1.5pt dashed yellow;
+    border-bottom: 1.5pt dashed yellow;
+}
+
+.mid{
+    justify-content: space-between;
+}
+
+.mid>.text-div{
+    margin: 7% auto 0;
+}
+
+.back{
+    transform: scaleX(-1);
+}
+
+a{
+    text-decoration: none;
+}

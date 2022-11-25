@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="gamestyle.css"/>
+    <title>Kő-Papír-Olló</title>
+</head>
+<body>
+    <section>
+        <div class="top">
+            <div class="text-div" id="player"><p>Játékos</p></div>
+            <div class="score">
+                <div id="scorePlayer"><p>0</p></div>
+                <div id="scoreBot"><p>0</p></div>
+            </div>
+            <div class="text-div" id="botPlayer"><p>Bot</p></div>
+        </div>
+        <div class="mid">
+            <div class="frame" id="frameLeft"></div>
+            <div class="vs"><p>VS</p></div>
+            <div class="frame" id="frameRight"></div>
+        </div>
+        <div class="bot">
+            <div class="playButton" id="rock"><img src="./src/ko_gomb.png"></div>
+            <div class="playButton" id="paper"><img src="./src/papir_gomb.png"></div>
+            <div class="playButton" id="scissors"><img src="./src/ollo_gomb.png"></div>
+        </div>
+    </section>
+    <div class="popup" id="popup">
+        <img id="mark" src="./src/tick.png">
+        <h2> Győztes:</h2>
+        <p id="winner-name"></p>
+        <button id="restart" type="button" onclick="restartGame()">Restart</button>
+        <button id="backbutton" type="button" onclick="closePopup()">Return to main menu</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 

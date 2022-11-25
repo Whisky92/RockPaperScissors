@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("./src/hatter.png");
+    margin: 0 auto;
+}
+
+section{
+    width: 75%;
+    background-color: black;
+    padding: 5em;
+    margin: 5% auto 0;
+    border: 2px solid yellow;
+    border-radius: 5em;
+    text-align: center;
+}
+
+#section2{
+    padding: 0;
+}
+
+.box{
+    padding-top: 5em;
+    background-color: orange;
+    width: 75%;
+    height: 36.85em;
+    border-radius: 5em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 0;
+}
+
+.box>p{
+    text-decoration: underline;
+    font-size: 40pt;
+    padding: 10% auto 0;
+    border-top: 4pt solid black;
+}
+
+.signs>p, h1{
+    font-size: 36pt;
+    padding: 3pt 0 3pt 0;
+}
+
+p{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+}
