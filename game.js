@@ -131,7 +131,7 @@ let restartGame = () => {
 
 let closePopup = () => {
     popup.classList.remove("open-popup");
-    window.location.href = "mainpage.html";
+    window.location.href = "index.html";
 };
 
 initialize();
